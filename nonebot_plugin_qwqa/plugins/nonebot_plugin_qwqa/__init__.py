@@ -62,7 +62,7 @@ async def send_reaction_handle(bot: Bot, event: GroupMessageEvent):
 
     group = event.data.group.group_id # type: ignore
     seq = event.data.message_seq
-    preset: list[str] = ["白圣女", "白圣女喵", "困困喵", "笨笨喵", "sisi"]
+    preset: list[str] = ["白圣女", "白圣女喵", "困困喵", "笨笨喵"]
 
     if qwqa or singl or msg in preset or noah:
         global reaction

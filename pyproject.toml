@@ -5,7 +5,9 @@ description = "qwqa"
 readme = "README.md"
 requires-python = ">=3.10, <4.0"
 dependencies = [
-    "httpx>=0.28.1"
+    "httpx>=0.28.1",
+    "nonebot-adapter-milky>=1.1.0",
+    "nonebot2>=2.4.4",
 ]
 
 [tool.nonebot]
