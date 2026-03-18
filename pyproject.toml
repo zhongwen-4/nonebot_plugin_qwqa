@@ -15,5 +15,5 @@ adapters = [
     { name = "nonebot-adapter-milky", module_name = "nonebot.adapters.milky" }
 ]
 plugins = []
-plugin_dirs = ["qwqa/plugins"]
+plugin_dirs = ["nonebot_plugin_qwqa/plugins"]
 builtin_plugins = []
