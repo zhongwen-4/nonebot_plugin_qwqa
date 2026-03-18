@@ -1,6 +1,6 @@
 [project]
 name = "nonebot-plugin-qwqa"
-version = "0.1.2"
+version = "0.1.3"
 description = "qwqa"
 readme = "README.md"
 requires-python = ">=3.10, <4.0"
@@ -15,5 +15,5 @@ adapters = [
     { name = "nonebot-adapter-milky", module_name = "nonebot.adapters.milky" }
 ]
 plugins = []
-plugin_dirs = ["nonebot_plugin_qwqa/plugins"]
+plugin_dirs = ["nonebot_plugin_qwqa"]
 builtin_plugins = []
