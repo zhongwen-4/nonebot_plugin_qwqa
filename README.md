@@ -4,8 +4,12 @@
   <p><img src="https://github.com/A-kirami/nonebot-plugin-template/blob/resources/NoneBotPlugin.svg" width="240" alt="NoneBotPluginText"></p>
 </div>
 
+<div align="center">
+
 # nonebot_plugin_qwqa
 _✨ 全自动大佬膜拜插件 ✨_
+
+</div>
 
 ## 📖介绍
 由于本插件是全自动的，所以并没有任何主动命令，目前已支持以下大佬 ~~（虽然没被授权吧）~~
