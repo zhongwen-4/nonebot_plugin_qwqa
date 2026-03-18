@@ -1,0 +1,17 @@
+[project]
+name = "qwqa"
+version = "0.1.0"
+description = "qwqa"
+readme = "README.md"
+requires-python = ">=3.10, <4.0"
+dependencies = [
+    "httpx>=0.28.1"
+]
+
+[tool.nonebot]
+adapters = [
+    { name = "nonebot-adapter-milky", module_name = "nonebot.adapters.milky" }
+]
+plugins = []
+plugin_dirs = ["qwqa/plugins"]
+builtin_plugins = []
