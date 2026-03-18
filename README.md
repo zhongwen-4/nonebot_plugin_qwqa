@@ -4,8 +4,6 @@
   <p><img src="https://github.com/A-kirami/nonebot-plugin-template/blob/resources/NoneBotPlugin.svg" width="240" alt="NoneBotPluginText"></p>
 </div>
 
-<div align="center">
-
 # nonebot_plugin_qwqa
 _✨ 全自动大佬膜拜插件 ✨_
 
