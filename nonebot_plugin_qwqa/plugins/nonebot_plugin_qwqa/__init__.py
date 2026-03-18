@@ -12,7 +12,8 @@ __plugin_meta__ = PluginMetadata(
     description= "当你诵念大佬的尊名时本插件将自动发送群表情",
     usage= "在群内诵念大佬们的尊名即可",
     type= "application",
-    supported_adapters= {"~milky"}
+    supported_adapters= {"~milky"},
+    homepage= "https://github.com/zhongwen-4/nonebot_plugin_qwqa"
 )
 
 send_reaction = on_message()
