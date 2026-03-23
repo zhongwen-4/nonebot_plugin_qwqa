@@ -85,14 +85,24 @@ async def qwqa_plugin_startup_handle():
 
 @send_reaction.handle()
 async def send_reaction_handle(bot: Bot, event: GroupMessageEvent):
+    data = {}
     msg = event.message.extract_plain_text()
     qwqa = re.search(r"^q([\s\S]?)w([\s\S]?)q[a-zA-Z]$", msg, re.IGNORECASE)
     singl = re.search(r"^s(ing|ign)l\*?$", msg, re.IGNORECASE)
     noah = re.search(r"(towanoah|noa|noah)", msg, re.IGNORECASE)
 
+    with open(path, "r") as f:
+        data = json.load(f)
+
     group = event.data.group.group_id  # type: ignore
     seq = event.data.message_seq
     preset: list[str] = ["白圣女", "白圣女喵", "困困喵", "笨笨喵"]
+
+    if "list" not in data:
+        logger.info("没有检测到大佬列表，将跳过该检测")
+    else:
+        for i in data["list"]:
+            preset.append(i)
 
     if qwqa or singl or msg in preset or noah:
         global reaction
