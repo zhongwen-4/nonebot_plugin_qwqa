@@ -65,6 +65,6 @@ _✨（非）全自动大佬膜拜插件 ✨_
 
 |命令|范围|说明|
 |:--:|:--:|:--:|
-|.qwqa add <name>|群聊|添加大佬|
-|.qwqa [-r / remove / del] <name>|群聊|删除大佬|
+|.qwqa add [name]|群聊|添加大佬|
+|.qwqa [-r / remove / del] [name]|群聊|删除大佬|
 |.qwqa get_list|群聊|获取大佬列表|
